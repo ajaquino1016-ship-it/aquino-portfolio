@@ -7,7 +7,7 @@ import React from 'react'
 
 
 const menuItems = [
-    { name: 'About', href: '#link' },
+    { name: 'About', href: 'about.tsx' },
     { name: 'Projects', href: '#link' },
     { name: 'Services', href: '#link' },
     { name: 'Contacts', href: '#link' },

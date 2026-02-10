@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Settings2, Sparkles, Zap } from 'lucide-react'
+import { BookOpen , School , GraduationCap  } from 'lucide-react'
 import { ReactNode } from 'react'
 
 export default function Features() {
@@ -10,58 +10,58 @@ export default function Features() {
                     <h2 className="text-balance text-4xl font-semibold lg:text-5xl">EDUCATION HISTORY</h2>
                     <p className="mt-4"> </p>
                 </div>
-                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 [--color-background:var(--color-muted)] [--color-card:var(--color-muted)] *:text-center md:mt-16 dark:[--color-muted:var(--color-zinc-900)]">
-                    <Card className="group border-0 shadow-none">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Zap
-                                    className="size-6"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
+                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 md:mt-16">
+  
+  <Card className="group border-0 shadow-none h-full flex flex-col">
+    <CardHeader className="pb-3 flex-1 flex flex-col items-center">
+      <CardDecorator>
+        <School className="size-12" aria-hidden />
+      </CardDecorator>
 
-                            <h2 className="mt-6 font-medium text-2xl">Elementary</h2>
-                        </CardHeader>
+      <h2 className="mt-6 font-medium text-2xl text-center">
+        Junior High School
+      </h2>
+    </CardHeader>
 
-                        <CardContent>
-                            <p className="text-sm">MRSCI</p>
-                        </CardContent>
-                    </Card>
+    <CardContent className="mt-auto">
+      <p className="text-sm text-center">MRSCI</p>
+    </CardContent>
+  </Card>
 
-                    <Card className="group border-0 shadow-none">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Settings2
-                                    className="size-6"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
+  <Card className="group border-0 shadow-none h-full flex flex-col">
+    <CardHeader className="pb-3 flex-1 flex flex-col items-center">
+      <CardDecorator>
+        <BookOpen className="size-12" aria-hidden />
+      </CardDecorator>
 
-                            <h2 className="mt-6 font-medium text-2xl">HIGHSCHOOL</h2>
-                        </CardHeader>
+      <h2 className="mt-6 font-medium text-2xl text-center">
+        Senior High School – ICT Strand
+      </h2>
+    </CardHeader>
 
-                        <CardContent>
-                            <p className="mt-3 text-sm">MRSCI</p>
-                        </CardContent>
-                    </Card>
+    <CardContent className="mt-auto">
+      <p className="text-sm text-center">MRSCI</p>
+    </CardContent>
+  </Card>
 
-                    <Card className="group border-0 shadow-none">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Sparkles
-                                    className="size-6"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
+  <Card className="group border-0 shadow-none h-full flex flex-col">
+    <CardHeader className="pb-3 flex-1 flex flex-col items-center">
+      <CardDecorator>
+        <GraduationCap className="size-12" aria-hidden />
+      </CardDecorator>
 
-                            <h2 className="mt-6 font-medium text-2xl">CURRENT</h2>
-                        </CardHeader>
+      <h2 className="mt-6 font-medium text-2xl text-center">
+        Bachelor of Science in Information Technology
+      </h2>
+    </CardHeader>
 
-                        <CardContent>
-                            <p className="mt-3 text-sm">AMACC</p>
-                        </CardContent>
-                    </Card>
-                </div>
+    <CardContent className="mt-auto">
+      <p className="text-sm text-center">AMA FAIRVIEW</p>
+    </CardContent>
+  </Card>
+
+</div>
+
             </div>
         </section>
     )

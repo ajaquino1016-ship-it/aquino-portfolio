@@ -85,7 +85,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                     <Link
-                        href="#"
+                        href="https://www.facebook.com/ajxaquino"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Facebook"
@@ -124,7 +124,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                     <Link
-                        href="#"
+                        href="https://www.instagram.com/izz.aaron_/?hl=en"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
