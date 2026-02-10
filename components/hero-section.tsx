@@ -16,7 +16,7 @@ export default function HeroSection() {
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                <h1 className="mt-8 text-8xl font-extrabold font-roboto tracking-tight whitespace-nowrap">
-  Aaron James Aquino
+  Aaron James A. Aquino
 </h1>
 
                               <p className="mt-8 max-w-3xl text-pretty text-4xl"> 2nd Year College</p>
